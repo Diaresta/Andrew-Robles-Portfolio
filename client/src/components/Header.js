@@ -46,7 +46,7 @@ const Header = () => {
                 className={({ isActive }) =>
                   isActive
                     ? activeStyle
-                    : 'p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300'
+                    : 'p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300 active:border-grainHover'
                 }
                 exact='true'
               >
@@ -59,7 +59,7 @@ const Header = () => {
                 className={({ isActive }) =>
                   isActive
                     ? activeStyle
-                    : 'p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300'
+                    : 'p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300 active:border-grainHover'
                 }
                 exact='true'
               >
@@ -72,7 +72,7 @@ const Header = () => {
                 className={({ isActive }) =>
                   isActive
                     ? activeStyle
-                    : 'p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300'
+                    : 'p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300 active:border-grainHover'
                 }
                 exact='true'
               >
@@ -85,7 +85,7 @@ const Header = () => {
                 className={({ isActive }) =>
                   isActive
                     ? activeStyle
-                    : 'p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300'
+                    : 'p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300 active:border-grainHover'
                 }
                 exact='true'
               >
