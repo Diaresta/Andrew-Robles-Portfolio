@@ -52,7 +52,7 @@ const Contact = () => {
       <h1 className='text-2xl font-bold mt-3'>Contact</h1>
 
       <div className='flex flex-col w-full justify-center items-center'>
-        <p className='text-lg mb-3'>
+        <p className='text-lg mb-3 w-4/5'>
           Have any questions or care to chat? Don't hesitate to reach out!
         </p>
         <div className='flex flex-col relative justify-center items-center bg-parchment border-2 rounded p-8 w-4/5 drop-shadow-md'>
