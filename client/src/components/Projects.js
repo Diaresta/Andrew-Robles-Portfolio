@@ -15,7 +15,8 @@ const Projects = () => {
       <div id='projects-container' className='w-full flex flex-col text-center'>
         <h1 className='text-2xl font-bold my-3'>Projects</h1>
 
-        <div className='md:space-y-8'>
+        <div className='space-y-36'>
+          {/* <div className='md:space-y-8'> */}
           <ProjectsComp
             siteName={projectInfo.geteller.name}
             siteLink={projectInfo.geteller.site}

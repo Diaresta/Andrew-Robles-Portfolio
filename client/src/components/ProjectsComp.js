@@ -35,7 +35,7 @@ const ProjectsComp = ({
 
               <div className='bg-parchmentLight border rounded w-full lg:w-3/4'>
                 <div>
-                  <p className='text-left p-2 mb-2 bg-parchmentLight rounded'>
+                  <p className='text-left p-2 mb-2 bg-parchmentLight leading-7 rounded'>
                     {siteAbout}
                   </p>
                 </div>
