@@ -8,7 +8,7 @@ const ProjectsComp = ({
   siteTech,
 }) => {
   return (
-    <div className='flex flex-col mb-1 h-screen drop-shadow-md'>
+    <div className='flex flex-col mb-1 drop-shadow-md'>
       <div className='flex flex-col w-full px-4 space-x-4'>
         <div className='mx-auto bg-parchment border-2 rounded p-4 w-full lg:w-4/5'>
           <article className='flex flex-col'>
