@@ -8,7 +8,9 @@ const Projects = () => {
     portfolioProjects.portfolioProjects
   );
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    document.title = 'Andrew Robles | Projects';
+  }, []);
 
   return (
     <div className='flex flex-row w-screen mb-4'>

@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { emailValidate } from '../static/scripts/Utilities';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const Contact = () => {
@@ -46,6 +45,10 @@ const Contact = () => {
         console.error(err);
       });
   };
+
+  useEffect(() => {
+    document.title = 'Andrew Robles | Contact';
+  }, []);
 
   return (
     <div id='contact-container' className='flex flex-col text-center mb-4'>

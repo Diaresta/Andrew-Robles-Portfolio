@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const AboutMe = () => {
+  useEffect(() => {
+    document.title = 'Andrew Robles | Developer';
+  }, []);
+
   return (
     <div
       id='about-me-container'
