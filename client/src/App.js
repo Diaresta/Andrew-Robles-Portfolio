@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume.js';
+import NotFound from './components/NotFound.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/projects' element={<Projects />} exact />
         <Route path='/contact' element={<Contact />} exact />
         <Route path='/resume' element={<Resume />} exact />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </div>
   );

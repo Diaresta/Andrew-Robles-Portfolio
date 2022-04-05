@@ -66,7 +66,7 @@ const Header = () => {
                 Projects
               </NavLink>
             </li>
-            <li className=' active:text-grainHover'>
+            <li className='active:text-grainHover'>
               <NavLink
                 to='resume'
                 className={({ isActive }) =>

@@ -6,7 +6,7 @@ const Resume = () => {
   }, []);
 
   return (
-    <div>
+    <div className='flex'>
       <h1>resume</h1>
     </div>
   );
