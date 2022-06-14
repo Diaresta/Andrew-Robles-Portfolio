@@ -29,7 +29,7 @@ const AboutMe = () => {
             <ul className='flex flex-row flex-wrap w-full justify-evenly mt-4 text-linkGreen text-2xl space-x-4 sm:space-x-2'>
               <li className='my-2'>
                 <a
-                  href='https://www.linkedin.com'
+                  href='https://www.linkedin.com/in/andrew-robles'
                   className='flex flex-col text-center hover:text-soilLight active:text-grainHover'
                   target='_blank'
                 >
@@ -57,13 +57,14 @@ const AboutMe = () => {
                 </NavLink>
               </li>
               <li className='my-2'>
-                <NavLink
-                  to='/resume'
+                <a
+                  href='https://github.com/Diaresta/Andrew-Robles-Resume'
+                  target='_blank'
                   className='flex flex-col text-center hover:text-soilLight active:text-grainHover'
                 >
                   <i className='fa-solid fa-file drop-shadow-md' />
                   <small>Resume</small>
-                </NavLink>
+                </a>
               </li>
               <li className='my-2'>
                 <NavLink

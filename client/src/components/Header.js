@@ -67,7 +67,14 @@ const Header = () => {
               </NavLink>
             </li>
             <li className='active:text-grainHover'>
-              <NavLink
+              <a
+                href='https://github.com/Diaresta/Andrew-Robles-Resume'
+                target='_blank'
+                className='p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300 active:border-grainHover'
+              >
+                Resume
+              </a>
+              {/* <NavLink
                 to='resume'
                 className={({ isActive }) =>
                   isActive
@@ -77,7 +84,7 @@ const Header = () => {
                 exact='true'
               >
                 Resume
-              </NavLink>
+              </NavLink> */}
             </li>
             <li className=' active:text-grainHover'>
               <NavLink
