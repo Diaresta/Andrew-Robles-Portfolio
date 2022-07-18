@@ -38,6 +38,10 @@ const Contact = () => {
       .then((response) => {
         setAlertText('Message Submitted!');
         fadeOutAlert('bg-successGreen');
+
+        setTimeout(() => {
+          window.location.href = '/';
+        }, 500);
       })
       .catch((err) => {
         setAlertText(err.response.data.error);
