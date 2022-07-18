@@ -90,7 +90,6 @@ const Contact = () => {
                   placeholder='First Name'
                   className='appearance-none border border-soil rounded py-1 px-2 w-full focus:border-soilLight focus:bg-parchmentLight'
                   onChange={(e) => {
-                    console.log(messageFirst);
                     setMessageFirst(e.target.value);
                   }}
                   required
@@ -109,7 +108,6 @@ const Contact = () => {
                   placeholder='Last Name'
                   className='appearance-none border border-soil rounded py-1 px-2 w-full focus:border-soilLight focus:bg-parchmentLight'
                   onChange={(e) => {
-                    console.log(messageLast);
                     setMessageLast(e.target.value);
                   }}
                   required
@@ -130,7 +128,6 @@ const Contact = () => {
                   className='appearance-none border border-soil rounded py-1 px-2 w-full focus:border-soilLight focus:bg-parchmentLight'
                   placeholder='Email'
                   onChange={(e) => {
-                    console.log(messageEmail);
                     setMessageEmail(e.target.value);
                   }}
                   required
@@ -148,7 +145,6 @@ const Contact = () => {
                   id='message'
                   className='appearance-none border border-soil rounded py-1 px-2 w-full h-32 focus:border-soilLight focus:bg-parchmentLight'
                   onChange={(e) => {
-                    console.log(messageText);
                     setMessageText(e.target.value);
                   }}
                   required
