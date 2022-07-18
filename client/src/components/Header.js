@@ -34,6 +34,7 @@ const Header = () => {
           <NavLink
             to=''
             className='font-bold text-2xl hover:text-soilLight active:text-grainHover'
+            title='Home'
           >
             Andrew Robles
           </NavLink>
