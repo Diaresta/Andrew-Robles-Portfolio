@@ -167,6 +167,7 @@ const Contact = () => {
                   href='https://www.linkedin.com'
                   className='flex flex-col text-center hover:text-soilLight active:text-grainHover'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <i className='fa-brands fa-linkedin drop-shadow-md' />
                   <small>LinkedIn</small>
@@ -177,6 +178,7 @@ const Contact = () => {
                   href='mailto:andrewjordanrobles@gmail.com'
                   className='flex flex-col text-center hover:text-soilLight active:text-grainHover'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <i className='fa-solid fa-envelope drop-shadow-md' />
                   <small>Email</small>
@@ -187,6 +189,7 @@ const Contact = () => {
                   href='https://github.com/Diaresta'
                   className='flex flex-col text-center hover:text-soilLight active:text-grainHover'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <i className='fa-brands fa-github drop-shadow-md' />
                   <small>GitHub</small>
