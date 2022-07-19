@@ -19,6 +19,7 @@ const ProjectsComp = ({
                   href={siteLink}
                   className='text-xl font-bold underline hover:text-soilLight active:text-grainHover'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   {siteName}
                 </a>
@@ -41,12 +42,12 @@ const ProjectsComp = ({
                 </div>
                 <div className='space-x-4 py-2'>
                   <button className='text-lg bg-grain rounded h-8 w-14 p-0.5 text-center hover:bg-grainHover hover:text-soilDark active:bg-grainLight'>
-                    <a href={siteLink} target='_blank'>
+                    <a href={siteLink} target='_blank' rel='noreferrer'>
                       Site
                     </a>
                   </button>
                   <button className='text-lg bg-frog rounded h-8 w-14 p-0.5 text-center hover:bg-frogDark active:bg-frogLight'>
-                    <a href={siteCode} target='_blank'>
+                    <a href={siteCode} target='_blank' rel='noreferrer'>
                       Code
                     </a>
                   </button>

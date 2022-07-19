@@ -32,6 +32,7 @@ const AboutMe = () => {
                   href='https://www.linkedin.com/in/andrew-robles'
                   className='flex flex-col text-center hover:text-soilLight active:text-grainHover'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <i className='fa-brands fa-linkedin drop-shadow-md' />
                   <small>LinkedIn</small>
@@ -42,6 +43,7 @@ const AboutMe = () => {
                   href='https://github.com/Diaresta'
                   className='flex flex-col text-center hover:text-soilLight active:text-grainHover'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <i className='fa-brands fa-github drop-shadow-md' />
                   <small>GitHub</small>
@@ -60,6 +62,7 @@ const AboutMe = () => {
                 <a
                   href='https://github.com/Diaresta/Andrew-Robles-Resume'
                   target='_blank'
+                  rel='noreferrer'
                   className='flex flex-col text-center hover:text-soilLight active:text-grainHover'
                 >
                   <i className='fa-solid fa-file drop-shadow-md' />
@@ -84,6 +87,7 @@ const AboutMe = () => {
                 className='font-extrabold text-linkGreen underline drop-shadow-md hover:text-soilLight active:text-grainHover'
                 href='https://github.com/Diaresta/DRAFTBOYS/tree/dev'
                 target='_blank'
+                rel='noreferrer'
               >
                 DRAFTBOYS
               </a>

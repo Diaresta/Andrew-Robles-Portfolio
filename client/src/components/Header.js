@@ -71,6 +71,7 @@ const Header = () => {
               <a
                 href='https://github.com/Diaresta/Andrew-Robles-Resume'
                 target='_blank'
+                rel='noreferrer'
                 className='p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300 active:border-grainHover'
               >
                 Resume
