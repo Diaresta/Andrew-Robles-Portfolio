@@ -38,7 +38,7 @@ const portfolioProjects = {
     site: 'https://www.shinessbm.com',
     image: '/images/projects/shine-ex.jpg',
     about:
-      'Shine is a tool that parses .slp files, computes stats, and displays them in a visibly succinct way, with inspiration from head-to-head sports stats. Shine uses Handlebars as a view engine as well as pure JavaScript for the front end, with a Node.js/Express server. Multer’s used for users to upload .slp files, files that hold recorded player inputs from a game of Super Smash Bros. Melee. Shine then parses the data from the uploaded file, and structures into stats that display what occurred throughout the match. These stats include macro match info such as who won and characters being played, and goes as micro as average kill percents and damage per opening, as well as much more.',
+      'Shine is a tool that parses .slp files, computes stats, and displays them in a visibly succinct way, with inspiration from head-to-head sports stats. Shine uses Handlebars as a view engine as well as pure JavaScript for the front end, with a Node.js/Express server. Multer’s used for users to upload .slp files, files that hold recorded player inputs from a game of Super Smash Bros. Melee. Shine then parses the data from the uploaded file, and structures into stats that display what occurred throughout the match. These stats include macro match info such as who won and characters being played, and goes as micro as average kill percent and damage per opening, as well as much more.',
     code: 'https://github.com/Diaresta/Slippi-Stats-Website',
     tech: ['ES6 JavaScript', 'Handlebars', 'Multer', 'Node.js', 'Express'],
   },
