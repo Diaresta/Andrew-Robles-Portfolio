@@ -159,18 +159,14 @@ const Header = () => {
               </li>
 
               <li className='w-screen py-4 hover:text-charcole hover:bg-parchment hover:text-charcoleLight active:text-grainHover'>
-                <NavLink
-                  to='resume'
-                  className={({ isActive }) =>
-                    isActive ? activeStyle : undefined
-                  }
-                  onClick={() => {
-                    showMobileNav();
-                  }}
-                  exact='true'
+                <a
+                  href='https://github.com/Diaresta/Andrew-Robles-Resume'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='p-1.5 rounded border-b-0 hover:border-b-4 border-charcoleLight transition-all duration-300 active:border-grainHover'
                 >
                   Resume
-                </NavLink>
+                </a>
               </li>
 
               <li className='w-screen py-4 hover:text-charcole hover:bg-parchment hover:text-charcoleLight active:text-grainHover'>
