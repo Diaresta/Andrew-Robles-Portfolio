@@ -15,14 +15,7 @@ const portfolioProjects = {
     about:
       "Draftboys is a Magic: The Gathering draft simulator, allowing a player to partake in draft gameplay as if they're seated around a table with friends. Draftboys uses Handlebars as a view engine as well as pure JavaScript for the front end, with a Node.js/Express server and MongoDB database. Foregoing external APIs, Draftboys’ client-side stores all MTG card sets as JSON Objects, allowing quick and dynamic retrieval of cards to be drafted. When a user completes a draft, Draftboys allows them to download their cards as a text file. These text files can then be easily imported into companion software such as MTG Arena and MTG Online, allowing users to play full Magic: The Gathering games online with their decks created on Draftboys.",
     code: 'https://github.com/Diaresta/DRAFTBOYS',
-    tech: [
-      'ES6 JavaScript',
-      'Handlebars',
-      'Node.js',
-      'Express',
-      'MongoDB',
-      'REST API',
-    ],
+    tech: ['TypeScript', 'React', 'Node.js', 'Express', 'MongoDB', 'REST API'],
   },
   vandal: {
     name: 'Vandal',
