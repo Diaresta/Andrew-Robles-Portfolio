@@ -85,7 +85,7 @@ const AboutMe = () => {
               Currently working on:{' '}
               <a
                 className='font-extrabold text-linkGreen underline drop-shadow-md hover:text-soilLight active:text-grainHover'
-                href='https://github.com/Diaresta/DRAFTBOYS/tree/dev'
+                href='https://github.com/Diaresta/DRAFTBOYS/'
                 target='_blank'
                 rel='noreferrer'
               >
