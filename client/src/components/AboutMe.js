@@ -85,11 +85,11 @@ const AboutMe = () => {
               Currently working on:{' '}
               <a
                 className='font-extrabold text-linkGreen underline drop-shadow-md hover:text-soilLight active:text-grainHover'
-                href='https://github.com/Diaresta/DRAFTBOYS/'
+                href='https://github.com/Diaresta/cloyster'
                 target='_blank'
                 rel='noreferrer'
               >
-                DRAFTBOYS
+                Cloyster
               </a>
             </h3>
           </div>
