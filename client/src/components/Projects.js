@@ -36,7 +36,7 @@ const Projects = () => {
             siteTech={projectInfo.draftboys.tech}
             screenLocation='draftboys'
           />
-          <ProjectsComp
+          {/* <ProjectsComp
             siteName={projectInfo.vandal.name}
             siteLink={projectInfo.vandal.site}
             siteImage={projectInfo.vandal.image}
@@ -53,7 +53,7 @@ const Projects = () => {
             siteCode={projectInfo.shine.code}
             siteTech={projectInfo.shine.tech}
             screenLocation='shine'
-          />
+          /> */}
         </div>
       </div>
 

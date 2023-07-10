@@ -60,7 +60,7 @@ const ProjectButtons = () => {
             />
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link smooth={true} to='vandal' offset={-70}>
             <i
               className={`fa-solid ${scrollBtnThree} text-soil hover:text-soilLight hover:cursor-pointer active:text-grainHover`}
@@ -73,7 +73,7 @@ const ProjectButtons = () => {
               className={`fa-solid ${scrollBtnFour} text-soil hover:text-soilLight hover:cursor-pointer active:text-grainHover`}
             />
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

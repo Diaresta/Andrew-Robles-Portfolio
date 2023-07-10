@@ -1,10 +1,10 @@
-import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header.js';
+import { Route, Routes } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Resume from './components/Resume.js';
+import Header from './components/Header.js';
 import NotFound from './components/NotFound.js';
+import Projects from './components/Projects';
+import Resume from './components/Resume.js';
 
 function App() {
   return (
