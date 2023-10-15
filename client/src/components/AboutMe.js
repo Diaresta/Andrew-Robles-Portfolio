@@ -80,7 +80,7 @@ const AboutMe = () => {
               </li>
             </ul>
           </div>
-          <div className='pt-8 text-2xl font-bold'>
+          {/* <div className='pt-8 text-2xl font-bold'>
             <h3>
               Currently working on:{' '}
               <a
@@ -92,7 +92,7 @@ const AboutMe = () => {
                 Cloyster
               </a>
             </h3>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
